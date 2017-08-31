@@ -23,6 +23,7 @@ public abstract class UnionFind {
         qf.union(5, 0);
         qf.union(7, 2);
         qf.union(6, 1);
+        System.out.println(qf.getCount());
         qf.union(1, 0);
         qf.union(6, 7);
         System.out.println(Arrays.toString(qf.arr));
