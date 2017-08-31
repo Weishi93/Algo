@@ -4,7 +4,7 @@ import java.util.Arrays;
  * Created by Wei Shi on 10/6/16.
  */
 public class quickSort {
-    public void quickSort(int[] arr, int left, int right) throws IllegalArgumentException{
+    public void quickSort(int[] arr, int left, int right) throws IllegalArgumentException {
         if (arr == null || arr.length == 0) { // bound-check
             return;
         }
